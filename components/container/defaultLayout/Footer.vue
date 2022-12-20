@@ -5,20 +5,12 @@ const menuList = [
 		to: "/mypage",
 	},
 	{
-		title: "MicroCMS",
-		to: "/microcms",
-	},
-	{
 		title: "home",
 		to: "/",
 	},
-	{
-		title: "usestate",
-		to: "/usestate",
-	},
-	{
-		title: "compositionapi",
-		to: "/compositionapi",
+		{
+		title: "composable",
+		to: "/composable",
 	},
 ];
 </script>

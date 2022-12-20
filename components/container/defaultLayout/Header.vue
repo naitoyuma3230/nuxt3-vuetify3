@@ -1,5 +1,5 @@
 <template>
-	<v-app-bar density="compact">
+	<v-app-bar density="compact" elevation="1">
 		<v-btn icon>
 			<v-icon @click="back">mdi-menu</v-icon>
 		</v-btn>
