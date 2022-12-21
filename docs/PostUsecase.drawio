@@ -1,0 +1,153 @@
+<mxfile host="65bd71144e">
+    <diagram id="mUZbpqldOiTae5J7npwn" name="ページ1">
+        <mxGraphModel dx="2057" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="107" value="ユーザーページ" style="shape=umlFrame;whiteSpace=wrap;html=1;shadow=0;fontSize=12;width=110;height=25;" parent="1" vertex="1">
+                    <mxGeometry x="-640" y="50" width="380" height="1001" as="geometry"/>
+                </mxCell>
+                <mxCell id="139" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=1.004;entryY=0.062;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="117" target="107" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="20" y="100" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="30" y="112"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="117" value="アカウント・権限" style="shape=umlFrame;whiteSpace=wrap;html=1;fontSize=10;width=110;height=30;" parent="1" vertex="1">
+                    <mxGeometry x="-100" y="170" width="260" height="430" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3" target="7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="95" style="edgeStyle=none;html=1;entryX=1.017;entryY=0.5;entryDx=0;entryDy=0;fontSize=8;entryPerimeter=0;" parent="1" source="3" target="70" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="137" style="edgeStyle=none;html=1;entryX=1.028;entryY=0.456;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="3" target="44" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-230" y="700" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3" value="Facility User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-30" y="440" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" style="edgeStyle=none;html=1;entryX=1.036;entryY=0.128;entryDx=0;entryDy=0;fontSize=8;entryPerimeter=0;" parent="1" source="19" target="70" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="125" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;" parent="1" source="19" target="126" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="30" y="280"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="138" style="edgeStyle=none;html=1;entryX=1.028;entryY=0.126;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="19" target="44" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="141" style="html=1;entryX=1.016;entryY=0.266;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="19" target="11" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="Facility Staff" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-30" y="250" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="-563" y="731" width="180" height="300" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="コメント" style="shape=umlFrame;whiteSpace=wrap;html=1;width=80;height=30;" parent="102" vertex="1">
+                    <mxGeometry width="180" height="300" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="読む" style="ellipse;whiteSpace=wrap;html=1;align=center;" parent="102" vertex="1">
+                    <mxGeometry x="40" y="48" width="90" height="36" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="自分のコメント" style="shape=umlFrame;whiteSpace=wrap;html=1;width=100;height=30;" parent="102" vertex="1">
+                    <mxGeometry x="20" y="163" width="140" height="128" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" style="edgeStyle=none;html=1;entryX=0.469;entryY=0.011;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=8;" parent="102" source="57" target="56" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="コメントする" style="ellipse;whiteSpace=wrap;html=1;align=center;" parent="102" vertex="1">
+                    <mxGeometry x="40" y="105" width="90" height="36" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="編集する" style="ellipse;whiteSpace=wrap;html=1;align=center;" parent="102" vertex="1">
+                    <mxGeometry x="50" y="200" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="削除する" style="ellipse;whiteSpace=wrap;html=1;align=center;" parent="102" vertex="1">
+                    <mxGeometry x="50" y="244.79999999999995" width="70" height="35.2" as="geometry"/>
+                </mxCell>
+                <mxCell id="147" style="edgeStyle=none;html=1;entryX=0.999;entryY=0.257;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="114" target="117">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="114" value="Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="290" y="250" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="118" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="-563" y="440" width="180" height="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="いいね" style="shape=umlFrame;whiteSpace=wrap;html=1;width=80;height=30;" parent="118" vertex="1">
+                    <mxGeometry width="180" height="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="いいねする" style="ellipse;whiteSpace=wrap;html=1;align=center;" parent="118" vertex="1">
+                    <mxGeometry x="45" y="105" width="90" height="31.38" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="自分のいいね" style="shape=umlFrame;whiteSpace=wrap;html=1;width=100;height=30;" parent="118" vertex="1">
+                    <mxGeometry x="25" y="155.16999999999996" width="140" height="74.83" as="geometry"/>
+                </mxCell>
+                <mxCell id="94" style="edgeStyle=none;html=1;entryX=0.463;entryY=0.006;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=8;" parent="118" source="71" target="72" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="取り消す" style="ellipse;whiteSpace=wrap;html=1;align=center;" parent="118" vertex="1">
+                    <mxGeometry x="55" y="199.99655172413793" width="70" height="23.793103448275865" as="geometry"/>
+                </mxCell>
+                <mxCell id="92" value="記事のいいね数を見る" style="ellipse;whiteSpace=wrap;html=1;align=center;" parent="118" vertex="1">
+                    <mxGeometry x="20" y="48" width="140" height="36" as="geometry"/>
+                </mxCell>
+                <mxCell id="121" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="-563" y="100" width="240" height="300" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="記事" style="shape=umlFrame;whiteSpace=wrap;html=1;width=80;height=30;" parent="121" vertex="1">
+                    <mxGeometry width="240" height="300" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="自分が投稿した記事" style="shape=umlFrame;whiteSpace=wrap;html=1;width=120;height=30;" parent="121" vertex="1">
+                    <mxGeometry x="48" y="165" width="130" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="読む" style="ellipse;whiteSpace=wrap;html=1;align=center;" parent="121" vertex="1">
+                    <mxGeometry x="78" y="40" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" style="edgeStyle=none;html=1;fontSize=8;" parent="121" source="14" target="35" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="投稿する" style="ellipse;whiteSpace=wrap;html=1;align=center;" parent="121" vertex="1">
+                    <mxGeometry x="78" y="110" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="編集する" style="ellipse;whiteSpace=wrap;html=1;align=center;" parent="121" vertex="1">
+                    <mxGeometry x="78" y="210" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="削除する" style="ellipse;whiteSpace=wrap;html=1;align=center;" parent="121" vertex="1">
+                    <mxGeometry x="78" y="250" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="126" value="Facility userの&lt;br&gt;担当をする" style="ellipse;whiteSpace=wrap;html=1;align=center;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="-20" y="540" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="140" value="ログインする" style="ellipse;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-230" y="70" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="142" value="ログアウトする" style="ellipse;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-120" y="70" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="143" value="ユーザー作成" style="ellipse;whiteSpace=wrap;html=1;align=center;fontSize=10;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="250" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="144" value="ユーザー更新" style="ellipse;whiteSpace=wrap;html=1;align=center;fontSize=10;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="300" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="145" value="ユーザー削除" style="ellipse;whiteSpace=wrap;html=1;align=center;fontSize=10;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="350" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="146" value="ユーザー一覧を見る" style="ellipse;whiteSpace=wrap;html=1;align=center;fontSize=10;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="200" width="100" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

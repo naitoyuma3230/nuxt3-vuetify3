@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<SearchPanel />
+		<search-panel />
 		<ArticleCard :post="item" />
 	</div>
 </template>

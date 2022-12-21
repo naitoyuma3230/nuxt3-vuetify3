@@ -4,22 +4,22 @@ const menuList = [
 		title: "mypage",
 		to: "/mypage",
 	},
-	{
-		title: "MicroCMS",
-		to: "/microcms",
-	},
-	{
-		title: "home",
-		to: "/",
-	},
-	{
-		title: "usestate",
-		to: "/usestate",
-	},
-	{
-		title: "compositionapi",
-		to: "/compositionapi",
-	},
+	// {
+	// 	title: "MicroCMS",
+	// 	to: "/",
+	// },
+	// {
+	// 	title: "home",
+	// 	to: "/",
+	// },
+	// {
+	// 	title: "usestate",
+	// 	to: "/",
+	// },
+	// {
+	// 	title: "compositionapi",
+	// 	to: "/",
+	// },
 ];
 </script>
 <template>

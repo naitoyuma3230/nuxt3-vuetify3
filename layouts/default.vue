@@ -8,11 +8,10 @@ import Footer from "../components/container/defaultLayout/Footer.vue"
       <Header />
     <v-main>
       <v-container>
-        <slot></slot>
+        <slot />
       </v-container>
     </v-main>
     <Footer></Footer>
-
   </v-app>
 </template>
 

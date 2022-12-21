@@ -1,7 +1,7 @@
 <template>
 	<Profile />
 	<TabPanel class="my-5" />
-	<NuxtPage :key="$route.fullPath" class="my-5" />
+	<NuxtPage />
 </template>
 
 <script setup>
