@@ -12,6 +12,7 @@
 						<v-list-item-subtitle>{{ post.time }}</v-list-item-subtitle>
 					</div>
 				</v-card-actions>
+
 				<v-card-text class="pa-1">
 					{{ post.contentText }}
 				</v-card-text>
@@ -34,9 +35,11 @@
 				</v-card-text>
 				<v-card-action class="pa-1">
 					<v-spacer></v-spacer>
+
 					<v-btn color="surface-variant" variant="text"
 						><v-icon>mdi-heart</v-icon>12</v-btn
 					>
+
 					<v-btn color="surface-variant" variant="text"
 						><v-icon>mdi-comment</v-icon>4</v-btn
 					>
@@ -45,23 +48,33 @@
 					<v-btn variant="text" color="blue" class="mx-5">Good</v-btn>
 					<v-btn variant="text" color="green" class="mx-5">Comment</v-btn>
 				</v-card-actions>
-				<!-- <ArticleCardReaction :commentItem="post.commentList[0]" /> -->
-				
+				<ArticleCardReaction :commentItem="post.commentList[0]" />
 				<v-card-subtitle
 					class="text-center my-0"
 					v-if="post.commentList.length > 1"
 				>
-						<p class="my-0 py-0" :to="`/comment${post.reportId}`">
+					<v-btn variant="flat" :to="`/comment${post.reportId}`">
+						<p>
 							他に{{ post.commentList.length - 1 }}件のコメントがあります...
 						</p>
-					<v-btn :to="`/comment${post.reportId}`" variant="flat" class="py-0 my-0" icon="mdi-chevron-down"></v-btn>
+					</v-btn>
+					<div class="text-center">
+						<v-btn
+							variant="flat"
+							:to="`/comment${post.reportId}`"
+							class="my-0"
+							icon="mdi-chevron-down"
+						>
+						</v-btn>
+					</div>
 				</v-card-subtitle>
 			</v-card>
 		</v-col>
 	</v-row>
 </template>
 <script setup>
-// import ArticleCardReactionVue from "~/components/container/mypage/post/ProArticleCardReactionVuefile.vue";
+import ArticleCardReaction from "~/components/container/mypage/post/ArticleCardReaction.vue";
 const { data: reportList } = await useFetch("http://localhost:8000/reportList");
-
 </script>
+
+<style></style>

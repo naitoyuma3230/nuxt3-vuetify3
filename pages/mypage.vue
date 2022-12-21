@@ -1,7 +1,7 @@
 <template>
 	<Profile />
 	<TabPanel class="my-5" />
-	<NuxtPage />
+	<NuxtPage class="my-5" />
 </template>
 
 <script setup>

@@ -8,17 +8,17 @@
 		{
 			name: "Table",
 			icon: "mdi-tag",
-			to: "record",
+			to: "table",
 		},
 		{
 			name: "Chart",
 			icon: "mdi-tag",
-			to: "ability",
+			to: "chart",
 		},
 		{
 			name: "Info",
 			icon: "mdi-tag",
-			to: "biological",
+			to: "infomation",
 		},
 	];
 </script>
