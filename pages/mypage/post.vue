@@ -1,12 +1,12 @@
 <template>
 	<div>
-		<SearchPanel />
-		<ArticleCard :post="reportList" />
+		<search-panel />
+		<ArticleCard :post="item" />
 	</div>
 </template>
 <script setup>
-
-import SearchPanel from "~/components/container/mypage/post/SearchPanel.vue";
-import ArticleCard from "~/components/container/mypage/post/ArticleCard.vue";
+import SearchPane from "~~/components/container/mypage/post/SearchPanel";
+import ArticleCard from "~/components/container/mypage/post/ArticleCard";
 const { data: reportList } = await useFetch("http://localhost:8000/reportList");
 </script>
+
